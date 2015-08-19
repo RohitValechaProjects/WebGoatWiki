@@ -1,1 +1,1 @@
-hi
+Installation instructions can be found within [README.MD](https://github.com/WebGoat/WebGoat/blob/master/README.MD)
