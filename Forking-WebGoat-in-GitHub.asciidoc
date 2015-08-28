@@ -1,0 +1,55 @@
+NOTE: Instructions below follow the guide from https://help.github.com/articles/fork-a-repo/ very closely.
+
+. Navigate to the project in GitHub.
+
+. Click the fork button in the upper right of the page. It will ask you how you want to fork, select your user id. Once done, it will look something like this (located in the upper left of the page):
++
+image::https://github.com/WebGoat/WebGoat.github.io/blob/master/wg-wiki-images/justForked.png[Just Forked]
++
+. Set up git if you haven't already, and then access your command-line / terminal.
+
+. Use the url at the right of the page in your forked directory (see below) to clone your newly forked repo. The example below shows ssh and the webgoat-container branch specifically.
++
+image::https://github.com/WebGoat/WebGoat.github.io/blob/master/wg-wiki-images/cloneURL.png[Clone URL]
++
+NOTE: You can use https or ssh.
++
+image::https://github.com/WebGoat/WebGoat.github.io/blob/master/wg-wiki-images/gitCloneBranch.png[Get Cloned Branch]
++
+NOTE: The -b webgoat-container indicates the webgoat-container branch.
+
+. Go to the directory where you cloned your forked copy of the code, and then:
+.. Type the following...
++
+----
+$ git remote -v
+----
++
+And you should see something like:
++
+----
+origin	git@github.com:misfir3/WebGoat.git (fetch)
+origin	git@github.com:misfir3/WebGoat.git (push)
+----
++
+NOTE: Enter your username in place of misfir3
+.. Type:
++
+----
+$ git remote add upstream
+----
+.. Type:
++
+----
+$ git remote -v 
+----
++
+Again, and you should see something like:
++
+----
+origin	        git@github.com:misfir3/WebGoat.git (fetch)
+origin	        git@github.com:misfir3/WebGoat.git (push)
+upstream	git@github.com:misfir3/WebGoat.git (fetch)
+upstream	git@github.com:misfir3/WebGoat.git (push)
+----
+. To keep in sync with ongoing changes made to the WebGoat project, see GitHub's instructions for syncing a fork. If you started from a branch other than master (e.g. webgoat-container), you can use that in place of master in the commands there. Then,  you can substitute whatever branch you started from (assuming its not master).
