@@ -10,8 +10,6 @@
  * [Installation (WebGoat 6.0)](https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-6.x))
  * [Installation (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-7.0))
 
-## Tools Required
-
 ## Getting Started
 
 ## Basic Operation
