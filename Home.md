@@ -1,4 +1,4 @@
-![WebGoat Logo](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat-Legacy/images/wg_logo_snag.png)
+![WebGoat Logo](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/wg_logo_snag.png)
 
 1. <a href="#what">What is WebGoat?</a>
 2. <a href="#builds">Builds</a>
@@ -29,8 +29,8 @@ _The WebGoat Team_
 <a name="builds" />
 # Builds
 
-* [Release Page](https://github.com/WebGoat/WebGoat-Legacy/releases/tag/v6.0.1)
-* [Webgoat 6.0 Embedded Tomcat](https://github.com/WebGoat/WebGoat-Legacy/releases/download/v6.0.1/WebGoat-6.0.1-war-exec.jar)
-* [WebGoat 6.0 War](https://github.com/WebGoat/WebGoat-Legacy/releases/download/v6.0.1/WebGoat-6.0.1.war)
-* [Nightly](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0.1-war-exec.jar)
+* [Release Page](https://github.com/WebGoat/WebGoatreleases/)
+* [ TBD WebGoat Embedded Tomcat](https://github.com/WebGoat/WebGoat/releases/download/v6.0.1/WebGoat-6.0.1-war-exec.jar)
+* [ TBD WebGoat 6.0 War](https://github.com/WebGoat/WebGoat-Legacy/releases/download/v6.0.1/WebGoat-6.0.1.war)
+* [ TBD Nightly](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0.1-war-exec.jar)
 
