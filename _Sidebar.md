@@ -15,6 +15,7 @@
 ## Getting Started
 
 ## Basic Operation
+ * [How to use (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/How-to-use-(WebGoat-7.0))
 
 ## Lesson Plans
 
@@ -25,4 +26,3 @@
 ## [Plugin Architecture](https://github.com/WebGoat/WebGoat/wiki/Plugin-Architecture)
 
 ## [FAQ](https://github.com/WebGoat/WebGoat/wiki/FAQ)
-
