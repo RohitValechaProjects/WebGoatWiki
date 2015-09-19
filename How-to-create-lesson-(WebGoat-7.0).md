@@ -183,7 +183,17 @@ starting the Tomcat server (within Eclipse). See the
 All WebGoat lessons have a lesson plan that describes the goals of the lesson.
 Create a lesson plan and put it in lesson_plans folder for each supported language.
 
-### Step 6: Give back to the community
+### Step 5: Create the lesson plan
+
+All WebGoat lessons have a lesson plan that describes the goals of the lesson.
+Create a lesson plan and put it in lesson_plans folder for each supported language.
+
+### Step 6: Create the lesson solution
+
+All WebGoat lessons have a lesson solution that describes the solution of the lesson.
+Create a lesson solution and put it in lesson_solutions folder for each supported language.
+
+### Step 7: Give back to the community
 
 If you've come up with a lesson that you think helps to teach people about 
 web application security, please contribute it by sending it to the people 
