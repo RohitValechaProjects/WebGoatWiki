@@ -7,7 +7,8 @@
 
 ## Installation and Configuration
  * [Installation (WebGoat 5.4)](https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-5.4))
- * [Installation (WebGoat 6.0)](https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-6.0))
+ * [Installation (WebGoat 6.0)](https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-6.x))
+ * [Installation (WebGoat 6.0)](https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-7.x))
 
 ## Tools Required
 
