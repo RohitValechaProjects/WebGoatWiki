@@ -1,4 +1,4 @@
-The WebGoat Readme (link to readme) has the most extensive and up to date installation instructions.
+The WebGoat [Readme](https://github.com/WebGoat/WebGoat/blob/master/README.MD) has the most extensive and up to date installation instructions.
 
 ## Configure new WebGoat users in your installation
  WebGoat uses spring-security.xml to configure users.
@@ -18,7 +18,7 @@ The WebGoat Readme (link to readme) has the most extensive and up to date instal
 
 ## Adding Users
 
-Usually WebGoat only requires logging in with the user:guest and password:guest. But maybe in laboratory you have made a setup with one server and a lot of clients. In this case you might want to have a user for every client, you will have to alter /WEB-INF/spring-security.xml to add additional users. We recommend not to use real passwords as the passwords are stored in plain text in this file!    
+Usually WebGoat only requires logging in with the ```user = guest``` and ```password = guest``` default credentials. But maybe in laboratory you have made a setup with one server and a lot of clients. In this case you might want to have a user for every client, you will have to alter /WEB-INF/spring-security.xml to add additional users. We recommend not to use real passwords as the passwords are stored in plain text in this file!    
 
 ## Adding a new User
 
