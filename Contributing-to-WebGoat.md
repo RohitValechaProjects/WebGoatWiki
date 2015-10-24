@@ -8,42 +8,50 @@ This page describes the WebGoat development process.
 
 ## Roles
 
-* **Core developers**. have **access to the WebGoat repositories** and can merge pull requests
-* **Contributors**. can **contribute** by committing pull requests.
+* **Core developers:** have **access to the WebGoat repositories** and can merge pull requests
+* **Contributors:** can **contribute** by forking and submitting pull requests.
 
 
-If you'd like to join the team, we'd love to hear from you! [Contact Bruce Mayhew](mailto:webgoat@owasp.org) for more information.  If you just want to fix an issue that's been nagging you, we welcome that too.
+If you'd like to join the team, we'd love to hear from you! [Contact Bruce Mayhew](mailto:webgoat@owasp.org) for more information.  
+
+_If you just want to fix an issue that's been nagging you, we welcome that too._
 
 ## Repository Setup and Release Process
 
-Master is the main working stream. Travis builds and test each merged requests, producing a numbered version for each build.  This is the bleeding edge version, the 'nightly build'. 
+The ```master``` is the main working stream. We use _Travis.CI_ as a _"Continuous Integration"_ server for testing each pull request and after merge into master.
 
-You can find [the latest nightly build](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and [a list of all recently nightly builds](https://webgoat.atlassian.net/builds/browse/WEB-WGM) in bamboo.
+Integration tests using _Selenium_ leveraging _SauceLabs_ are perform upon each merge into master branch.
 
-If you have access, [you can view the WebGoat builds](https://webgoat.atlassian.net/builds/browse/WEB)
+Each successful build that passes integration tests generates a new _JAR, Executable JAR and WAR files_, which are made available on a [Amazon S3 bucket](http://webgoat-war.s3-website-us-east-1.amazonaws.com/)
 
-WebGoat build numbers have a three-part structure:  <major>.<minor>.<buildNumber>.   For example, 6.1.65. 
+These artifacts are to be considered the __Bleeding Edge__ version, akin to a 'nightly build', but these artifacts are created at __EVERY COMMIT THAT PASSES UNIT AND INTEGRATION TESTING__ 
 
-Anything you merge to master needs to be at least good enough to go into the nightly build. That means:
+You can view the status of our build processes and jobs on [Travis.CI](https://travis-ci.org/WebGoat/WebGoat)
+
+WebGoat build numbers have a three-part structure:  <major>.<minor>.<buildNumber>.   For example, 7.0.65. 
+
+Anything you submit as pull request to be merged into master is expected to be at least good enough to go into the the bleeding edge build. That means:
 
 1.          all of the tests pass
-1.          nothing is _worse_ than it was before you started
+2.          nothing is _worse_ than it was before you started
 
-Releases are also cut from the master branch, using a separate, administrator-executed bamboo job. This job tags master, and produces a stable, longterm release.  Stable releases are available for download on the [main WebGoat Page](http://webgoat.github.io)
+Releases are also cut from the master branch, by a process triggered by a _core developer_. This job tags master, and produces a stable, longterm release.  Stable releases are available for download on the [main WebGoat Page](http://webgoat.github.io)
 
 ## Development Workflow for Contributors 
 
 Contributors do not have direct repository access, but that doesn't mean contributions are not welcome!  
 
-If you'd like to help out, just fork the Webgoat Repository and make a pull request. Contributers should follow these steps:
+If you'd like to help out, just fork the [WebGoat Repository](https://github.com/WebGoat/WebGoat) on GitHub, make your changes and submit a pull request. 
 
-1. **Create a gihub account**, if not already existing.
-1. **Fork the Webgoat repository** at [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat).
-1. **Fork the Webgoat-Lessons repository** at [https://github.com/WebGoat/WebGoat-Lessons](https://github.com/WebGoat/WebGoat-Lessons).
-1. **Create a topic branch** for the changes. If you are working on a Webgoat issue, use the ticket number as the topic branch name. If there is no Github issue, use a sensible name.
+Here is a breakdown of the steps for contribution:
+
+1. **Create a GitHub account**, if not already existing.
+1. **Fork the WebGoat repository** at [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat).
+1. **Fork the WebGoat-Lessons repository** at [https://github.com/WebGoat/WebGoat-Lessons](https://github.com/WebGoat/WebGoat-Lessons).
+1. **Create a local git branch** for your changes. If you are working on a WebGoat issue, use the issue GitHub number/id ticket number as the topic branch name. If there is no Github Issue, use a sensible name. We recommend the creation of a Git Branch for your changes because the development on the main branch is very fluid, which means you can easily become out of synch with the upstream (WebGoat/WebGoat) master branch. Using a Git Branch for your changes will allow you to rebase your work on top of the master branch whenever necessary.
 1. **Develop and test your changes**  to make sure your changes are ok.
-1. **Create a Pull Request**. When you are ready to contribute your code. This is done via the github website. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, [here's is a good overview](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
-1. **Core developer merges changes** If your changes look good, a core developer will merge the change into master.  Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread. 
+1. **Create a Pull Request**, when you are ready to contribute your code. This is done via the GitHub website. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, [here's is a good overview](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
+1. **Core developer merges changes** If your changes look good, a core developer will merge the change into master.  Your changes will be available in the _bleeding edge build_ . If the changes needed more work, that is coordinated on the pull request thread. 
 
 If you are not an experienced git user, these tutorials might help:
 
