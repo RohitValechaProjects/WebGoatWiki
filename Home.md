@@ -1,7 +1,7 @@
 ![WebGoat Logo](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/wg_logo_snag.png)
 
 1. <a href="#what">What is WebGoat?</a>
-2. <a href="#builds">Builds</a>
+2. <a href="#builds">Bleeding Edge Builds</a>
 
 <a name="what" />
 # What is WebGoat?
@@ -25,12 +25,15 @@ Thanks for your interest!
 
 _The WebGoat Team_
 
+# Releases
+* [Release Page](https://github.com/WebGoat/WebGoatreleases/)
+
 
 <a name="builds" />
-# Builds
+# Bleeding Edge Builds
 
 * [Release Page](https://github.com/WebGoat/WebGoatreleases/)
-* [ TBD WebGoat Embedded Tomcat](https://github.com/WebGoat/WebGoat/releases/download/v6.0.1/WebGoat-6.0.1-war-exec.jar)
-* [ TBD WebGoat 6.0 War](https://github.com/WebGoat/WebGoat-Legacy/releases/download/v6.0.1/WebGoat-6.0.1.war)
-* [ TBD Nightly](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0.1-war-exec.jar)
+* [Bleeding Edge - WebGoat Executable JAR with Embedded Tomcat](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT-war-exec.jar)
+* [Bleeding Edge - WebGoat WAR file](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.war)
+* [Bleeding Edge - WebGoat JAR](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.jar)
 
