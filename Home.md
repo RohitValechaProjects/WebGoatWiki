@@ -26,7 +26,8 @@ Thanks for your interest!
 _The WebGoat Team_
 
 # Releases
-* [Release Page](https://github.com/WebGoat/WebGoatreleases/)
+* [Legacy Releases Page](https://github.com/WebGoat/WebGoat-Legacy/releases)
+* [Current Releases Page](https://github.com/WebGoat/WebGoat/releases/)
 
 
 <a name="builds" />
