@@ -20,9 +20,9 @@ _If you just want to fix an issue that's been nagging you, we welcome that too._
 
 The ```master``` is the main working stream. We use _Travis.CI_ as a _"Continuous Integration"_ server for testing each pull request and after merge into master.
 
-Integration tests using _Selenium_ leveraging _SauceLabs_ are perform upon each merge into master branch.
+__Integration tests__ using _Selenium_ leveraging _SauceLabs_ are performed upon each merge into ```master``` branch.
 
-Each successful build that passes integration tests generates a new _JAR, Executable JAR and WAR files_, which are made available on a [Amazon S3 bucket](http://webgoat-war.s3-website-us-east-1.amazonaws.com/)
+Each successful build that __passes integration tests__ generates a new ```JAR, Executable JAR and WAR files```, which are made available on a [Amazon S3 bucket](http://webgoat-war.s3-website-us-east-1.amazonaws.com/)
 
 These artifacts are to be considered the __Bleeding Edge__ version, akin to a 'nightly build', but these artifacts are created at __EVERY COMMIT THAT PASSES UNIT AND INTEGRATION TESTING__ 
 
@@ -48,7 +48,7 @@ Here is a breakdown of the steps for contribution:
 1. **Create a GitHub account**, if not already existing.
 1. **Fork the WebGoat repository** at [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat).
 1. **Fork the WebGoat-Lessons repository** at [https://github.com/WebGoat/WebGoat-Lessons](https://github.com/WebGoat/WebGoat-Lessons).
-1. **Create a local git branch** for your changes. If you are working on a WebGoat issue, use the issue GitHub number/id ticket number as the topic branch name. If there is no Github Issue, use a sensible name. We recommend the creation of a Git Branch for your changes because the development on the main branch is very fluid, which means you can easily become out of synch with the upstream (WebGoat/WebGoat) master branch. Using a Git Branch for your changes will allow you to rebase your work on top of the master branch whenever necessary.
+1. **Create a local git branch** for your changes. If you are working on a WebGoat issue, use the GitHub Issue number/id as the topic branch name. If there is no Github Issue, use a sensible name. We recommend the creation of a Git Branch for your changes because the development pace on the main branch is very fluid, which means you can easily become out of synch with the upstream (WebGoat/WebGoat) master branch. Using a Git Branch for your changes will allow you to rebase your work on top of the ```master``` branch whenever necessary.
 1. **Develop and test your changes**  to make sure your changes are ok.
 1. **Create a Pull Request**, when you are ready to contribute your code. This is done via the GitHub website. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, [here's is a good overview](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
 1. **Core developer merges changes** If your changes look good, a core developer will merge the change into master.  Your changes will be available in the _bleeding edge build_ . If the changes needed more work, that is coordinated on the pull request thread. 
@@ -73,7 +73,7 @@ Core Developers should follows these steps when working on issues:
 1. **Push your changes to origin** This makes your branch available for others to review.
 1. **[Optional] Get Feedback, if needed** If you need someone else to test, they can check out your branch. If the change is simple, you might just move directly to the pull request.
 1. **Create a Pull Request**. This is done via the github website.  When you think your changes are ready, make a pull request for the merge into master.  Though you could easily merge directly, this ensures another developer knows about the change, and has reviewed it.  
-1. **A different Core developer merges changes** Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread. It is preferred to merge pull requests through the github website, unless there are conflicts.  Not only is it easier, but it is less prone to error.
+1. **A different Core developer merges changes** Your changes will be available in the __Bleeding Edge build__. If the changes need more work, that is coordinated on the pull request thread. It is preferred to merge pull requests through the GitHub website, unless there are conflicts.  Not only is it easier, but it is less prone to error.
 
     * If a pull request cannot be merged on the website, it is ok to ask the originator to rebase their pull request on master.  This is more work for the requestor. However, it is almost always the right thing to do because it will have the original author resolving merge problems, not the reviewer.  If this seems unfamiliar, [this might help](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
 
