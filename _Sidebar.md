@@ -30,3 +30,4 @@
 ## [Plugin Architecture](https://github.com/WebGoat/WebGoat/wiki/Plugin-Architecture)
 
 ## [FAQ](https://github.com/WebGoat/WebGoat/wiki/FAQ)
+*
