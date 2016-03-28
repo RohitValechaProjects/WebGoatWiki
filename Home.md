@@ -36,4 +36,5 @@ _The WebGoat Team_
 * [Bleeding Edge - WebGoat Executable JAR with Embedded Tomcat](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT-war-exec.jar)
 * [Bleeding Edge - WebGoat WAR file](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.war)
 * [Bleeding Edge - WebGoat JAR](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.jar)
+*
 
