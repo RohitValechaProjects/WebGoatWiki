@@ -23,7 +23,7 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 <a name="bug-report"/>
 ##  How do I report a bug?
 
-You can report an issue at the following location: [https://github.com/WebGoat/WebGoat/issues GitHub issue tracking system].
+You can report an issue [here](https://github.com/WebGoat/WebGoat/issues)
 
 ***
 
