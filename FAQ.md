@@ -23,7 +23,7 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 <a name="bug-report"/>
 ##  How do I report a bug?
 
-Today we are tracking defects with [http://webgoat.atlassian.net Jira]. You will need to register before you can file a ticket.  We hope to resolve that soon or move to the github issue tracking system. 
+You can report an issue at the following location: [https://github.com/WebGoat/WebGoat/issues GitHub issue tracking system].
 
 ***
 
