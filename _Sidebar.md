@@ -11,6 +11,7 @@
  * [Installation (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-7.0))
 
 ## Getting Started
+ * [Running WebGoat](https://github.com/WebGoat/WebGoat/wiki/Running-WebGoat)
 
 ## Basic Operation
  * [How to use (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/How-to-use-(WebGoat-7.0))
