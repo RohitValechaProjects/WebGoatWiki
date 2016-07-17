@@ -1,12 +1,10 @@
 # Starting WebGoat
 
-## Easy Run Instructions:
-
-### 1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server:
+1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server:
 
 https://github.com/WebGoat/WebGoat/releases/
 
-### 2. Run it using java:
+2. Run it using java:
 
 Open a command shell/window, browse to where you downloaded the easy run jar and type:
 
@@ -14,7 +12,7 @@ Open a command shell/window, browse to where you downloaded the easy run jar and
 java -jar webgoat-container-<<version>>-war-exec.jar
 ```
 
-### 3. Browse to [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) and happy hacking !
+3. Browse to [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) and happy hacking !
 
 ## Run WebGoat on a different port
 
