@@ -10,6 +10,8 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: I dropped the WebGoat war file into my non-Tomcat application server, why doesn't WebGoat seem to work?](#non-tom-cat-app-server)
 
+1. [Q: I get a FileNotFoundException looking for .extract/webapps/WebGoat.war while using executable war file](#exec-war)
+
 1. [Q: I'm having problems with the maven build working properly. How do I configure my environment so that I don't receive errors?](#and-file)
 
 1. [Q: Why does WebGoat stop functioning right after startup?](#startup)
@@ -100,3 +102,6 @@ Post your question to owasp-webgoat@lists.owasp.org
 ##  How do I contribute to the code i.e. fork/commit?
 
 Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat-Legacy/wiki/Forking-WebGoat-in-GitHub).
+
+<a name="#exec-war"/>
+This might be caused by a previous attempt when you tried to run the executable war. Check if in the same directory there is an empty directory called `.extract` if so please remove it and try to run the executable war again.
