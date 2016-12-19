@@ -22,6 +22,8 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: How do I contribute to the code i.e. fork/commit?](#forking)
 
+1. [Q: Can I run the war file on Tomcat 8 or 9?](#tomcat)
+
 <a name="bug-report"/>
 ##  How do I report a bug?
 
@@ -107,3 +109,8 @@ Check out our instructions on [Forking WebGoat in GitHub](https://github.com/Web
 ## I get a FileNotFoundException looking for .extract/webapps/WebGoat.war while using executable war file
 
 This might be caused by a previous attempt when you tried to run the executable war. Check if in the same directory there is an empty directory called `.extract` if so please remove it and try to run the executable war again.
+
+<a name="tomcat"/>
+## I deploy the war file to a Tomcat 8 or above but no lessons show up.
+
+The way the lessons are currently loaded we depend on a specific feature of Tomcat which is no longer present in Tomcat 8 and above. At the moment you can only deploy the war file to a Tomcat 7 instance of use the standalone executable war. This problem is already fixed in version 8.
