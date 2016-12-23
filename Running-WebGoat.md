@@ -13,9 +13,7 @@ docker run -p 8080:8080 webgoat/webgoat-7.1
 
 ## Standalone
 
-1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server:
-
-https://github.com/WebGoat/WebGoat/releases/
+1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server: https://github.com/WebGoat/WebGoat/releases/
 
 2. Run it using java:
 
