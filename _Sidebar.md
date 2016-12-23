@@ -14,7 +14,7 @@
  * [Running WebGoat](https://github.com/WebGoat/WebGoat/wiki/Running-WebGoat)
 
 ## Basic Operation
- * [How to use (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/How-to-use-(WebGoat-7.0))
+ * [How to use (WebGoat 7.x)](https://github.com/WebGoat/WebGoat/wiki/How-to-use-(WebGoat-7.x))
 
 ## Creating Lessons
  * [How to create a lesson (WebGoat 7.0)](https://github.com/WebGoat/WebGoat/wiki/How-to-create-lesson-(WebGoat-7.0))
