@@ -1,5 +1,3 @@
-# Starting WebGoat
-
 ## Use Docker (only for version 7.1 and higher)
 
 The easiest way to start WebGoat is to use Docker. 
