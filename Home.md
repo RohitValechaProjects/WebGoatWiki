@@ -29,4 +29,6 @@ _The WebGoat Team_
 * [WebGoat 7.1 (stable)](https://github.com/WebGoat/WebGoat/releases/)
 * [WebGoat 8.0 (development)](https://github.com/WebGoat/WebGoat/tree/develop)
 
-
+# Older releases
+* [WebGoat 7.0.1](https://github.com/WebGoat/WebGoat/releases/tag/7.0.1)
+* [WebGoat Legacy releases](https://github.com/WebGoat/WebGoat-Legacy/releases)
