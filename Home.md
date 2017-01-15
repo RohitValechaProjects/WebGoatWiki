@@ -26,15 +26,7 @@ Thanks for your interest!
 _The WebGoat Team_
 
 # Releases
-* [Legacy Releases Page](https://github.com/WebGoat/WebGoat-Legacy/releases)
-* [Current Releases Page](https://github.com/WebGoat/WebGoat/releases/)
+* [WebGoat 7.1 (stable)](https://github.com/WebGoat/WebGoat/releases/)
+* [WebGoat 8.0 (development)](https://github.com/WebGoat/WebGoat/tree/develop)
 
-
-<a name="builds" />
-# Bleeding Edge Builds
-
-* [Bleeding Edge - WebGoat Executable JAR with Embedded Tomcat](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT-war-exec.jar)
-* [Bleeding Edge - WebGoat WAR file](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.war)
-* [Bleeding Edge - WebGoat JAR](https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0-SNAPSHOT.jar)
-*
 
