@@ -13,14 +13,14 @@ docker run -p 8080:8080 webgoat/webgoat-7.1
 
 ## Standalone
 
-1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server: https://github.com/WebGoat/WebGoat/releases/
+1. Download the easy run executable jar file which contains all the lessons and a embedded Tomcat server: [https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar](https://github.com/WebGoat/WebGoat/releases/)
 
 2. Run it using java:
 
 Open a command shell/window, browse to where you downloaded the easy run jar and type:
 
 ```Shell
-java -jar webgoat-container-<<version>>-war-exec.jar
+java -jar webgoat-container-7.1-exec.jar
 ```
 
 3. Browse to [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) and happy hacking !
@@ -30,7 +30,7 @@ java -jar webgoat-container-<<version>>-war-exec.jar
 By default WebGoat will run on port 8080, if you need it to run on a different port you can use: 
 
 ```Shell
-java -jar .\webgoat-container-<<version>>-war-exec.jar -httpPort=8081
+java -jar .\webgoat-container-7.1-exec.jar -httpPort=8081
 ```
 
 ## Using proxy tools
