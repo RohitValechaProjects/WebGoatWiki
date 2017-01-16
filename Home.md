@@ -1,9 +1,5 @@
 ![WebGoat Logo](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/wg_logo_snag.png)
 
-1. <a href="#what">What is WebGoat?</a>
-2. <a href="#builds">Bleeding Edge Builds</a>
-
-<a name="what" />
 # What is WebGoat?
  
 WebGoat is a deliberately insecure application that allows interested developers
@@ -26,8 +22,10 @@ Thanks for your interest!
 _The WebGoat Team_
 
 # Releases
-* [WebGoat 7.1 (stable)](https://github.com/WebGoat/WebGoat/releases/)
-* [WebGoat 8.0 (development)](https://github.com/WebGoat/WebGoat/tree/develop)
+* [Docker WebGoat 7.1 (stable)](https://hub.docker.com/r/webgoat/webgoat-7.1/)
+* [Docker WebGoat 8.0 (development)](https://hub.docker.com/r/webgoat/webgoat-8.0/)
+* [Standalone WebGoat 7.1 (stable)](https://github.com/WebGoat/WebGoat/releases/)
+* [Standalone WebGoat 8.0 (development)](https://github.com/WebGoat/WebGoat/tree/develop)
 
 # Older releases
 * [WebGoat 7.0.1](https://github.com/WebGoat/WebGoat/releases/tag/7.0.1)
