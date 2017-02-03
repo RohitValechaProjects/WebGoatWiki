@@ -8,6 +8,7 @@
 * SQL Injection
 * XXE
 * Client-Side Filtering
+* Application DoS ??
 * ???
 
 ## Features (issues) issues to complete for 8.0 release
