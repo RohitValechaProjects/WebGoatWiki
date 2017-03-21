@@ -183,11 +183,6 @@ starting the Tomcat server (within Eclipse). See the
 All WebGoat lessons have a lesson plan that describes the goals of the lesson.
 Create a lesson plan and put it in lesson_plans folder for each supported language.
 
-### Step 5: Create the lesson plan
-
-All WebGoat lessons have a lesson plan that describes the goals of the lesson.
-Create a lesson plan and put it in lesson_plans folder for each supported language.
-
 ### Step 6: Create the lesson solution
 
 All WebGoat lessons have a lesson solution that describes the solution of the lesson.
