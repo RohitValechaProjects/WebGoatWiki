@@ -22,8 +22,8 @@ Thanks for your interest!
 _The WebGoat Team_
 
 # Development news
-* [User management active](https://github.com/WebGoat/WebGoat/wiki/news_user_mgt)
-* [Simplified development](https://github.com/WebGoat/WebGoat/wiki/news_simplified)
+* [User management active](https://github.com/WebGoat/WebGoat/wiki/User-management)
+* [Simplified development](https://github.com/WebGoat/WebGoat/wiki/Simplified-development)
 
 # Releases
 * [Docker WebGoat 7.1 (stable)](https://hub.docker.com/r/webgoat/webgoat-7.1/)
