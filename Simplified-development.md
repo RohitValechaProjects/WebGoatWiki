@@ -9,19 +9,19 @@ In WebGoat 6 and 7 we developed our own plugin loader mechanism to load lessons 
 From now on we use the [Developer tools](http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html) which enables to keep on developing without restarting the container.
 If you use IntelliJ this is completely transparent to you and Spring will redeploy parts of the app as you develop. In IntelliJ create a run configuration for WebGoat:
 
-![Start WebGoat](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intelllij-start.png)
+![Start WebGoat](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-start.png)
 
 Now let's look at a change we want to make in WebGoat, let's rename the title of the Register page:
 
-![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intelllij-1.png)
+![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-1.png)
 
 We open up the `messages.properties` and change the title:
 
-![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intelllij-2.png)
+![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-2.png)
 
 Now we Recompile the message.properties file:
 
-![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intelllij-3.png)
+![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-3.png)
 
 And in the Console log we will see Spring restart the container (only takes a couple of seconds instead of the full startup), and now if we refresh the browser we will see:
 
