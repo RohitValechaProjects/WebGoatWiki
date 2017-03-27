@@ -23,7 +23,7 @@ Now we Recompile the message.properties file:
 
 ![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-3.png)
 
-And in the Console log we will see Spring restart the container (only takes a couple of seconds instead of the full startup), and now if we refresh the browser we will see:
+And in the Console log we will see Spring restarts the container (only takes a couple of seconds instead of the full startup), and now if we refresh the browser we will see:
 
 ![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-4.png)
 
