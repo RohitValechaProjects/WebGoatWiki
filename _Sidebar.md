@@ -10,7 +10,7 @@
 
 ## Basic Operation
  * [How to use (WebGoat 7.x)](https://github.com/WebGoat/WebGoat/wiki/How-to-use-(WebGoat-7.x))
- * [Proxy](https://github.com/WebGoat/WebGoat/wiki/Using proxy tools)
+ * [Proxy](https://github.com/WebGoat/WebGoat/wiki/Using%20proxy%20tools)
 
 ## Creating Lessons
  * [How to create a lesson (WebGoat 7.x)](https://github.com/WebGoat/WebGoat/wiki/How-to-create-lesson-(WebGoat-7.x))
