@@ -30,6 +30,11 @@
 ## WebGoat 8.1 features
 * lesson tagging, menu sorting/display
 
+## WebGoat 8.1 Pipeline Improvement
+* increase lesson test coverage >= 50%
+* increase overall test coverage >= 30%
+* Establish basic UI testing (not by lesson, but framework)
+
 # WebGoat 8.2 (include 'WebWolf' ?)
 * ClickJacking
 * CORS
