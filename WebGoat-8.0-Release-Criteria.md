@@ -8,17 +8,18 @@
 * XSS (need some work)
 * General
   * HTTP1.  Basics ✅ 
-** HTTP Proxies ✅ 
-* SQL Injection (Split advanced and basic)
-* XXE (incorporate photo comments from challenge)
+  * HTTP Proxies ✅ 
+* Injection
+  * SQL Injection (Split advanced and basic)
+  * XXE (incorporate photo comments from challenge)
 * Client-side
-** Client-Side Filtering (need to finish)
-** Client-side tampering (bypass javascript ... e.g. email regex, change values, change DOM generally)
+  * Client-Side Filtering (need to finish)
+  * Client-side tampering (bypass javascript ... e.g. email regex, change values, change DOM generally)
 * Access Control
-** IDOR (mostly done, needs some QA, maybe additional content ... maybe reference 'API' here)
+  * IDOR (mostly done, needs some QA, maybe additional content ... maybe reference 'API' here)
 * Authentication & Sessions
-** Cookies (logout, create-a-cookie)
-** JWT (move from challenge, maybe add brute-force)
+  * Cookies (logout, create-a-cookie)
+  * JWT (move from challenge, maybe add brute-force)
 * CSRF (not started)
 
 # WebGoat 8.1
