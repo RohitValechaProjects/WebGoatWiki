@@ -7,7 +7,7 @@
 
 * XSS (need some work)
 * General
-** HTTP Basics ✅ 
+ ** HTTP Basics ✅ 
 ** HTTP Proxies ✅ 
 * SQL Injection (Split advanced and basic)
 * XXE (incorporate photo comments from challenge)
