@@ -2,6 +2,7 @@
 
 ## Features (issues) issues to complete for 8.0 release
 * fix initial 'show hints' view
+* fix hints display of special characters (new library needed?)
 
 ## Lessons to complete prior to releasing 8.0
 
