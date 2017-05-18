@@ -22,6 +22,7 @@
   * Cookies (logout, create-a-cookie)
   * JWT (move from challenge, maybe add brute-force)
 * CSRF (not started)
+* Vulnerable Components
 
 # WebGoat 8.1
 * Access Control
