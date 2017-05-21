@@ -22,7 +22,6 @@
 ## Proxy Utilization
 
 ## Developers documentation
- * [Lesson progress](https://github.com/WebGoat/WebGoat/wiki/lesson-progress)
 
 ## [Plugin Architecture](https://github.com/WebGoat/WebGoat/wiki/Plugin-Architecture)
 
