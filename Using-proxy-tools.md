@@ -1,5 +1,6 @@
 ## Using proxy tools
 
+Please note: WebGoat 8.0 contains a lesson on how to configure OWASP ZAP.
 Some of the lessons need a proxy to intercept request towards the WebGoat server.
 
 ### Using OWASP Zed Attack Proxy (ZAP)
