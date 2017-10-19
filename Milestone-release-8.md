@@ -3,7 +3,8 @@ been a long time since the last WebGoat 7 release.
 
 ## Quick start
 
-Download the jar file [here](https://github.com/WebGoat/WebGoat/releases/tag/v8.0.0.M2)
+Download the jar file [here.](https://github.com/WebGoat/WebGoat/releases/tag/v8.0.0.M2)
+
 Open a console and type:
 
 ```$bash
@@ -24,13 +25,12 @@ within WebGoat now contains three elements:
 - Explain the vulnerability
 - Assignments to learn about how to exploit the vulnerability
 - Describe the possible mitigation scenarios
-- Final challenge
 
 The screenshot shows the start of the lesson. At the top of the page there is a navigation
 bar which shows the number of steps within the lesson. A number with a red background means
 there is an assignment to solve. When you successfully complete the assignment the background will become green.
 
-The following screenshot shows an example of an ![assignment](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/assignment.png)
+![assignment](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/assignment.png "Example assignment")
                                                                
 As you can see we also thought about the visual appearance of our assignments.
 
@@ -49,13 +49,13 @@ the current version a couple of assignment/challenges use WebWolf. At the moment
 to host files, receive e-mails and serve as a landing page. More details can be found in 
 our new WebWolf lesson inside WebWolf.
 
-![WebWolf hosting files](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/files.png)
-![WebWolf mailbox](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/mailbox.png)
-![WebWolf landing page](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/requests.png)
+![WebWolf hosting files](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/files.png "WebWolf hosting files")
+![WebWolf mailbox](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/mailbox.png "WebWolf mailbox")
+![WebWolf landing page](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/requests.png "WebWolf landing page")
 
 How to get started with WebWolf is described in a lesson within WebGoat, click [here](http://localhost:8080/WebGoat/start.mvc#lesson/WebWolfIntroduction.lesson)
 
-**Big thanks to OWASP for making it possible for us to go to the developer summits at AppSec conferences**
+**Big thanks to OWASP for making it possible for us to go to the Project summits at AppSec conferences**
 
  
 ### Challenges/CTF
