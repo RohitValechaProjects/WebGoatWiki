@@ -1,5 +1,5 @@
 # News
- - [Milestone release WebGoat 8](https://github.com/WebGoat/WebGoat/wiki/release8.0)
+ - [Milestone release WebGoat 8](https://github.com/WebGoat/WebGoat/wiki/Milestone-release-8)
 
 ## Helping the Goat!
  - [Contributing to WebGoat](https://github.com/WebGoat/WebGoat/wiki/Contributing-to-WebGoat)
@@ -27,4 +27,3 @@
 ## [Plugin Architecture](https://github.com/WebGoat/WebGoat/wiki/Plugin-Architecture)
 
 ## [FAQ](https://github.com/WebGoat/WebGoat/wiki/FAQ)
-**

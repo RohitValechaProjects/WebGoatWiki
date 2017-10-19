@@ -1,18 +1,16 @@
-# WebGoat 8
-
 The WebGoat team is proud to present the first milestone release of version 8. It has
 been a long time since the last WebGoat 7 release.
 
 ## Quick start
 
-Download the jar file ![here](https://github.com/WebGoat/WebGoat/releases/tag/v8.0.0.M2)
+Download the jar file [here](https://github.com/WebGoat/WebGoat/releases/tag/v8.0.0.M2)
 Open a console and type:
 
 ```$bash
 java -jar webgoat-server-8.0.0.M2.jar
 ```
 
-Open a browser and navigate to: ![http://localhost:8080/WebGoat](http://localhost:8080/WebGoat)
+Open a browser and navigate to: [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat)
 
 
 ## What changed?
@@ -33,7 +31,7 @@ bar which shows the number of steps within the lesson. A number with a red backg
 there is an assignment to solve. When you successfully complete the assignment the background will become green.
 
 The following screenshot shows an example of an ![assignment](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/assignment.png)
-
+                                                               
 As you can see we also thought about the visual appearance of our assignments.
 
 In short: WebGoat is now a **teaching platform** instead of just a hacking platform. 
@@ -55,7 +53,7 @@ our new WebWolf lesson inside WebWolf.
 ![WebWolf mailbox](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/mailbox.png)
 ![WebWolf landing page](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/8.0-milestone/requests.png)
 
-How to get started with WebWolf is described in a lesson within WebGoat, click ![here](http://localhost:8080/WebGoat/start.mvc#lesson/WebWolfIntroduction.lesson)
+How to get started with WebWolf is described in a lesson within WebGoat, click [here](http://localhost:8080/WebGoat/start.mvc#lesson/WebWolfIntroduction.lesson)
 
 **Big thanks to OWASP for making it possible for us to go to the developer summits at AppSec conferences**
 
