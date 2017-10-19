@@ -1,4 +1,5 @@
-# [Home](https://github.com/WebGoat/WebGoat-Legacy/wiki)
+# News
+ - [Milestone release WebGoat 8](https://github.com/WebGoat/WebGoat/wiki/release8.0)
 
 ## Helping the Goat!
  - [Contributing to WebGoat](https://github.com/WebGoat/WebGoat/wiki/Contributing-to-WebGoat)

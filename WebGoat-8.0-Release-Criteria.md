@@ -12,7 +12,7 @@
   * HTTP Proxies ✅ 
 * Injection
   * SQL Injection (Split advanced and basic)
-  * XXE (incorporate photo comments from challenge)
+  * XXE (incorporate photo comments from challenge) ✅
 * Client-side
   * Client-Side Filtering (need to finish)
   * Client-side tampering (bypass javascript ... e.g. email regex, change values, change DOM generally)
@@ -22,7 +22,7 @@
   * Cookies (logout, create-a-cookie)
   * JWT (move from challenge, maybe add brute-force)
 * CSRF (not started)
-* Vulnerable Components
+* Vulnerable Components ✅
 
 # WebGoat 8.1
 * Access Control
