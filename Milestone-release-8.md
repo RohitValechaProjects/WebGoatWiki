@@ -3,12 +3,12 @@ been a long time since the last WebGoat 7 release.
 
 ## Quick start
 
-Download the jar file [here.](https://github.com/WebGoat/WebGoat/releases/tag/v8.0.0.M2)
+Download the latest jar file [here.](https://github.com/WebGoat/WebGoat/releases/)
 
 Open a console and type:
 
 ```$bash
-java -jar webgoat-server-8.0.0.M2.jar
+java -jar webgoat-server-<<version>>.jar
 ```
 
 Open a browser and navigate to: [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat)

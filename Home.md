@@ -22,11 +22,12 @@ Thanks for your interest!
 _The WebGoat Team_
 
 # Releases
-* [Docker WebGoat 7.1 (stable)](https://hub.docker.com/r/webgoat/webgoat-7.1/)
-* [Docker WebGoat 8.0 (development)](https://hub.docker.com/r/webgoat/webgoat-8.0/)
-* [Standalone WebGoat 7.1 (stable)](https://github.com/WebGoat/WebGoat/releases/)
-* [Standalone WebGoat 8.0 (development)](https://github.com/WebGoat/WebGoat/tree/develop)
+
+* [Docker WebGoat 8.0](https://hub.docker.com/r/webgoat/webgoat-8.0/)
+* [Standalone WebGoat 8.0](https://github.com/WebGoat/WebGoat/releases/)
 
 # Older releases
+* [Docker WebGoat 7.1](https://hub.docker.com/r/webgoat/webgoat-7.1/)
+* [Standalone WebGoat 7.1](https://github.com/WebGoat/WebGoat/releases/)
 * [WebGoat 7.0.1](https://github.com/WebGoat/WebGoat/releases/tag/7.0.1)
 * [WebGoat Legacy releases](https://github.com/WebGoat/WebGoat-Legacy/releases)

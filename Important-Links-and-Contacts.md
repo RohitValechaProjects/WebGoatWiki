@@ -1,7 +1,7 @@
 * **Home Page:**              [https://github.com/WebGoat/WebGoat/wiki](https://github.com/WebGoat/WebGoat/wiki)
 * **Home Page:OWASP**         [http://www.owasp.org/index.php/Category:OWASP_WebGoat_Project](http://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 * **Source Code:**            [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat)
-* **Easy-Run Download:**     [https://github.com/WebGoat/WebGoat/releases/download/7.0.1/webgoat-container-7.0.1-war-exec.jar](https://github.com/WebGoat/WebGoat/releases/download/7.0.1/webgoat-container-7.0.1-war-exec.jar) 
+* **Easy-Run Download:**     [https://github.com/WebGoat/WebGoat/releases/](https://github.com/WebGoat/WebGoat/releases/) 
 * **User Guide / Wiki:**            [https://github.com/WebGoat/WebGoat/wiki](https://github.com/WebGoat/WebGoat/wiki)
 * **FAQ:**                   [https://github.com/WebGoat/WebGoat/wiki/FAQ](https://github.com/WebGoat/WebGoat/wiki/FAQ)
 * **Contact Info:** [webgoat@owasp.org](webgoat@owasp.org) (Direct to Bruce Mayhew)

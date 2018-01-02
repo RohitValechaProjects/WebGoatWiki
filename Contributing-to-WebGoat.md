@@ -20,12 +20,6 @@ _If you just want to fix an issue that's been nagging you, we welcome that too._
 
 The ```develop``` is the main working stream. We use _Travis.CI_ as a _"Continuous Integration"_ server for testing each pull request and after merge into develop.
 
-__Integration tests__ using _Selenium_ leveraging _SauceLabs_ are performed upon each merge into ```develop``` branch.
-
-Each successful build that __passes integration tests__ generates a new ```JAR, Executable JAR and WAR files```, which are made available on a [Amazon S3 bucket](http://webgoat-war.s3-website-us-east-1.amazonaws.com/)
-
-These artifacts are to be considered the __Bleeding Edge__ version, akin to a 'nightly build', but these artifacts are created at __EVERY COMMIT THAT PASSES UNIT AND INTEGRATION TESTING__ 
-
 You can view the status of our build processes and jobs on [Travis.CI](https://travis-ci.org/WebGoat/WebGoat)
 
 WebGoat build numbers have a three-part structure:  <major>.<minor>.<buildNumber>.   For example, 7.0.65. 
@@ -47,7 +41,6 @@ Here is a breakdown of the steps for contribution:
 
 1. **Create a GitHub account**, if not already existing.
 1. **Fork the WebGoat repository** at [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat).
-1. **Fork the WebGoat-Lessons repository** at [https://github.com/WebGoat/WebGoat-Lessons](https://github.com/WebGoat/WebGoat-Lessons).
 1. **Create a local git branch** for your changes. If you are working on a WebGoat issue, use the GitHub Issue number/id as the topic branch name. If there is no Github Issue, use a sensible name. We recommend the creation of a Git Branch for your changes because the development pace on the main branch is very fluid, which means you can easily become out of synch with the upstream (WebGoat/WebGoat) develop branch. Using a Git Branch for your changes will allow you to rebase your work on top of the ```develop``` branch whenever necessary.
 1. **Develop and test your changes**  to make sure your changes are ok.
 1. **Create a Pull Request**, when you are ready to contribute your code. This is done via the GitHub website. Please rebase your commits on top of develop, so that your changes are easy to pull. If you don't know how to do that, [here's is a good overview](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
@@ -57,7 +50,7 @@ If you are not an experienced git user, these tutorials might help:
 
 * [Setting up Git](https://help.github.com/articles/set-up-git)
 * [Forking a repo](https://help.github.com/articles/fork-a-repo)
-* [Collaborating / Syncing a fork](https://help.github.com/articles/syncing-a-fork/cd we)
+* [Collaborating / Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 * [About Pull Requests](https://help.github.com/articles/using-pull-requests)
 
 ## Development Workflow for Core Developers

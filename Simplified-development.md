@@ -19,7 +19,7 @@ We open up the `messages.properties` and change the title:
 
 ![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-2.png)
 
-Now we Recompile the message.properties file:
+Now we recompile the `message.properties` file:
 
 ![Webpage Registration](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat/images/intellij-3.png)
 
