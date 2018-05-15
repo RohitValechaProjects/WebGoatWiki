@@ -12,6 +12,8 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: How do I contribute to the code i.e. fork/commit?](#forking)
 
+1. [Q: How can I run WebGoat 8 when using Java 9 or higher?](#java9)
+
 
 <a name="bug-report"/>
 ##  How do I report a bug?
@@ -42,3 +44,14 @@ Post your question to owasp-webgoat@lists.owasp.org
 ##  How do I contribute to the code i.e. fork/commit?
 
 Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub).
+
+***
+
+<a name="java9"/>
+## How can I run WebGoat 8 when using Java 9 or higher?
+
+If you use Java 9 or higher you need to run WebGoat as follows:
+
+```
+java --add-modules java.xml.bind -jar webgoat-server-8.0.0.M14.jar
+```
