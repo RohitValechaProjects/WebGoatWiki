@@ -53,5 +53,5 @@ Check out our instructions on [Forking WebGoat in GitHub](https://github.com/Web
 If you use Java 9 or higher you need to run WebGoat as follows:
 
 ```
-java --add-modules java.xml.bind -jar webgoat-server-8.0.0.M14.jar
+java --add-modules java.xml.bind -jar webgoat-server-8.0.0.VERSION.jar
 ```
