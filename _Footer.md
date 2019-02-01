@@ -1,1 +1,0 @@
-_A Deliberately insecure JavaEE application - Provided by the OWASP Foundation_
