@@ -1089,7 +1089,9 @@ Sauvegarder le code suivant dans un fichier **csrf.html** et l'ouvrir dans un na
 <script>document.attack.submit();</script>  
 ```
 
-7.  
+7.
+![Warning](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/warning.png)  Le numéro de leçon ne devient pas vert après validation.
+
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Look at the content-type.  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Try to post the same message with content-type text/plain  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) The json can be put into a hidden field inside
@@ -1114,12 +1116,12 @@ Suivre les instructions. Follow the instructions.
 
 2.  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) You should use an HTTP proxy to intercept the request and change the URL.  
-![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) If Tom is https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/tom.png, Jerry would be https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/jerry.png.
+![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) If Tom is images/tom.png, Jerry would be images/jerry.png.
 
 *   Ouvrir les _Outils de développements_ du navigateur, et aller dans l'onglet _Réseau_.
 *   Sur WebGoat, cliquer sur **Steal the Cheese**.
 *   Repérer la requête vers `task1` dans l'onglet _Réseau_ et cliquer sur _Modifier et Renvoyer_.
-*   Modifier le corps de la requête en `url=https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/jerry.png`, et la renvoyer.
+*   Modifier le corps de la requête en `url=images/jerry.png`, et la renvoyer.
 
 ![SSRF 2](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/ssrf-2.png)
 
