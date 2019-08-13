@@ -1116,12 +1116,12 @@ Follow the instructions.
 
 2.  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) You should use an HTTP proxy to intercept the request and change the URL.  
-![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) If Tom is https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/tom.png, Jerry would be https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/jerry.png.
+![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) If Tom is images/tom.png, Jerry would be images/jerry.png.
 
 *   Open the _Development Tools_ in the browser, and go to the _Network_ tab.
 *   On **WebGoat** click on **Steal the Cheese**.
 *   Locate the query to `task1` in the _Network_ tab and click on _Edit and Resend_.
-*   Modify the body of the request with `url=https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/jerry.png` and send it again.
+*   Modify the body of the request with `url=images/jerry.png` and send it again.
 
 ![SSRF 2](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/ssrf-2.png)
 
