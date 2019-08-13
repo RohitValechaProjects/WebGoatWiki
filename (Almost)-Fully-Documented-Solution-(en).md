@@ -1,6 +1,6 @@
 *Written by Pierre-Arnaud Laporte*
 
-*Read this in other languages: [Français](wiki_owasp_webgoat.fr.md).*
+*Read this in other languages: [Français]((Almost)-Fully-Documented-Solution-(fr)).*
 
 
 - [**Introduction:**](#introduction)
