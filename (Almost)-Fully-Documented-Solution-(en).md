@@ -1089,7 +1089,9 @@ Save the following code in a file **csrf.html** and open it in a web browser.
 <script>document.attack.submit();</script>  
 ```
 
-7.  
+7. 
+![Warning](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/warning.png)  Lesson number does not turn green on validation.
+ 
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Look at the content-type.  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Try to post the same message with content-type text/plain  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) The json can be put into a hidden field inside
