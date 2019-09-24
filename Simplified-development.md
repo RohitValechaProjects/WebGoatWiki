@@ -1,6 +1,3 @@
-### With the move towards Java 11 this guide does not work anymore as Spring Boot 1 no longer support DevTools together with Java 11. We need to move to Spring Boot 2 first.
-
-
 In WebGoat 8 we moved towards Spring Boot in combination with Thymeleaf and AsciiDoc to create a lesson. In the latest commits to develop we refactored the following items:
 
 ### Lessons are now loaded with Spring
