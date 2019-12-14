@@ -453,7 +453,7 @@ Read the advices.
 ##### JWT tokens
 
 4.  
-![Warning](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/warning.png)  Lesson number does not turn green on validation. 
+Lesson used to not turn green on validation, but is confirmed to do so in version M26.
 
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Select a different user and look at the token you receive back, use the delete button to reset the votes count  
 ![Hint](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/hint.png) Decode the token and look at the contents  
@@ -472,7 +472,8 @@ uTIIpTGnZIS3XWL9MHZGaExJC7XhIiXA
 ```
 *   In base64, this is decoded as: `{"alg":"HS512"}.{"Iat":1564402244,"admin":"false","user":"Tom"}.signature`.
 *   Edit it to `{"alg": null}.{"Iat":1564402244,"admin":"true","user":"Tom"}.`.
-*   Re-encode it to base64 (`eyJhbGciOiBudWxsfQ==.eyJpYXQiOjE1NjQ0MDIyNDQsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ==.`).
+*   Re-encode it to base64 (`eyJhbGciOiBudWxsfQ.eyJpYXQiOjE1NjQ0MDIyNDQsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ.`).
+    (Pure base64 encoding might give paddings with '==' which will mess up the jwt library used in WebGoat, this is        cleaned up)
 *   Click on _Modify and Resend_, modify the cookie with the newly generated value and send again the request.
 
 ![JWT 4](https://raw.githubusercontent.com/PiAil/pwning-webgoat/master/images/wiki_owasp_webgoat/jwt-4.png)
