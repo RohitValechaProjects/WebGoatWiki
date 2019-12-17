@@ -1162,3 +1162,4 @@ This challenge is exactly the same as **(A1) Injection** - SQL Injection (advanc
 * get code
 
 ##### Without account
+https://resources.infosecinstitute.com/http-verb-tempering-bypassing-web-authentication-and-authorization/#gref
