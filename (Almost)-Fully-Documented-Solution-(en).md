@@ -1155,5 +1155,10 @@ Follow the instructions.
 This challenge is exactly the same as **(A1) Injection** - SQL Injection (advanced) 5.
 
 ##### Admin password reset
+* Fuzz through common path, find .git
+* open the .git link, download the .git zip
+* since we have all git objects, we can get all source code
+* find the constant varialbe of admin password reset link https://localhost:8080/WebGoat/challenge/7/reset-password/375afe1104f4a487a73823c50a9292a2
+* get code
 
 ##### Without account
