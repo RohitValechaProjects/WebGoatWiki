@@ -33,8 +33,6 @@ There are several options to run WebGoat (and WebWolf):
 	
 	mvn clean install
 	java -jar webgoat-server/target/webgoat-server-v8.0.0-SNAPSHOT.jar
-	
-	# and in another shell after WebGoat has started
 	java -jar webwolf/target/webwolf-v8.0.0-SNAPSHOT.jar
 	
 + Download the released and build jar files and run using Java 11
