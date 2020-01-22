@@ -4,3 +4,4 @@ The WebGoat Team Includes:
 * Jason White (UI lead, & architect)
 * Nanne Baars (Backend lead & architect)
 * Doug Morato (Infrastructure)
+* Ren&eacute; Zubcevic (technical specialist)
