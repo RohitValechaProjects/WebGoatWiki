@@ -23,8 +23,27 @@ _The WebGoat Team_
 
 # Releases
 
-* [Docker WebGoat 8.0](https://hub.docker.com/r/webgoat/webgoat-8.0/)
-* [Standalone WebGoat 8.0](https://github.com/WebGoat/WebGoat/releases/)
+WebGoat consists of two applications that work together. One is called WebGoat and one is called WebWolf.
+WebWolf depends on WebGoat and requires that WebGoat is started first. 
+
+Both WebGoat and WebWolf are runnable jar files. Make sure the following ports are available: 80, 8080, 9090, 9001 when running locally.
+
+There are several options to run WebGoat (and WebWolf):
++ Fork/Clone the repository, checkout the develop branch, build the artifacts using Java 11 and Maven 3.6+, and run the archives.
+	
+	mvn clean install
+	java -jar webgoat-server/target/webgoat-server-v8.0.0-SNAPSHOT.jar
+	
+	# and in another shell after WebGoat has started
+	java -jar webwolf/target/webwolf-v8.0.0-SNAPSHOT.jar
+	
++ Download the released and build jar files and run using Java 11
+    + [Standalone WebGoat 8.0](https://github.com/WebGoat/WebGoat/releases/)
++ Use the all-in-one docker container which contains a reverse proxy and both WebGoat and WebWolf which start in the correct order
+    + [Docker WebGoat 8.0](https://hub.docker.com/r/webgoat/goatandwolf/)
+    
+    docker run -d -p 80:8888 -p 8080:8080 -p 9090:9090 -e TZ=Europe/Amsterdam webgoat/goatandwolf:latest
+
 
 # Older releases
 * [Docker WebGoat 7.1](https://hub.docker.com/r/webgoat/webgoat-7.1/)
