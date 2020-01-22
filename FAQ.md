@@ -12,7 +12,7 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [Web
 
 1. [Q: How do I contribute to the code i.e. fork/commit?](#forking)
 
-1. [Q: How can I run WebGoat 8 when using Java 9 or higher?](#java9)
+1. [Q: How can I run WebGoat 8 when using Java 11](#java11)
 
 
 <a name="bug-report"/>
@@ -45,11 +45,11 @@ Post your question to owasp-webgoat@lists.owasp.org
 
 Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub).
 
-<a name="java9"/>
+<a name="java11"/>
 
-## How can I run WebGoat 8 when using Java 9 or higher?
+## How can I run WebGoat 8 when using Java 11 or higher?
 
-If you use Java 9 or higher you need to run WebGoat as follows:
+The latest releases and develop branch require Java 11, warnings can be suppressed by using the --add-modules parameter:
 
 ```
 java --add-modules java.xml.bind -jar webgoat-server-8.0.0.VERSION.jar
