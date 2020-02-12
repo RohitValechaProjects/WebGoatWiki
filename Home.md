@@ -21,6 +21,12 @@ Thanks for your interest!
 
 _The WebGoat Team_
 
+# Runtime environment for OWASP WebGoat
+
+The following picture shows the ideal local setup for running WebGoat and following the lessons. It also shows WebWolf and how OWASP Zap can be used between the browser and OWASP WebGoat. 
+
+![WebGoat local configuration](https://zubcevicdotcom.files.wordpress.com/2020/02/owasp-setup.png?w=1024)
+
 # Releases
 
 WebGoat consists of two applications that work together. One is called WebGoat and one is called WebWolf.
